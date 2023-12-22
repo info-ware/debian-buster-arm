@@ -5,6 +5,7 @@ RUN apt-get install -y libboost-filesystem-dev
 RUN apt-get install -y libasound2-dev libgles2-mesa-dev
 RUN apt-get install -y libcurl4-openssl-dev
 RUN apt-get install -y uuid-dev
+RUN apt-get install -y rsync
 
 
 RUN dpkg --add-architecture armhf
